@@ -9,7 +9,7 @@
 }
 @layer base {
     body {
-        @apply max-w-7xl font-noto-sans m-auto
+        @apply max-w-7xl font-noto-sans m-auto max-[850px]:bg-linear-to-b max-[850px]:from-50% max-[850px]:to-mustard
     }
 }
 

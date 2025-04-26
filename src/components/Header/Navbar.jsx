@@ -9,7 +9,7 @@ const Navbar = () => {
       <p className="font-semibold text-lg">EAT <span className="text-[#d9a800] font-bold">FRUITS</span></p>
       
       {/* Menú para pantallas grandes (>= 850px) */}
-      <ul className="hidden md:flex gap-8 items-center">
+      <ul className="hidden min-[850px]:flex gap-8 items-center">
         <li><a href="#" className="hover:text-mustard font-semibold">Home</a></li>
         <li><a href="#" className="hover:text-mustard font-semibold">Healthfacts</a></li>
         <li><a href="#" className="hover:text-mustard font-semibold">About</a></li>
@@ -19,7 +19,7 @@ const Navbar = () => {
       
       {/* Menú móvil (aparece cuando isMenuOpen es true) */}
       {isMenuOpen && (
-        <ul className="absolute top-16 left-0 right-0 bg-white py-4 px-16 flex flex-col gap-4 md:hidden">
+        <ul className="absolute top-16 left-0 right-0 bg-white py-1 px-16 flex flex-col gap-4 md:hidden">
           <li><a href="#" className="hover:text-mustard font-semibold">Home</a></li>
           <li><a href="#" className="hover:text-mustard font-semibold">Healthfacts</a></li>
           <li><a href="#" className="hover:text-mustard font-semibold">About</a></li>
