@@ -1,12 +1,52 @@
-# React + Vite
+# 🍊 Fresh Fruits
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive website showcasing the health benefits of oranges, built with modern web technologies.
 
-Currently, two official plugins are available:
+![Project Screenshot](./public/project-screenshot.webp)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📑 Table of Contents
+1. [✨ Features](#features)
+2. [🚀 Quick Start](#quick-start)
+3. [🛠 Tech Stack](#tech-stack)
+4. [🎨 Design Highlights](#design-highlights)
+5. [🌱 Future Improvements](#future-improvements)
 
-## Expanding the ESLint configuration
+## Features
+- Fully responsive layout (desktop/tablet/mobile)
+- Dynamic navbar with mobile menu toggle
+- Performance-optimized assets (lazy-loaded images)
+- Smooth CSS transitions and hover effects
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Quick Start
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/fresh-fruits.git
+   ```
+2. Install dependencies:
+    ```bash
+    pnpm install
+    ```
+3. Start development server:
+    ```bash
+    pnpm dev
+    ```
+
+## Tech Stack
+- ⚛️ React 19	Component-based UI
+- 🎨 Tailwind CSS 4	Utility-first styling
+- ⚡ Vite	Fast build tool
+- 🖥️ JavaScript	Core functionality
+
+
+## Design Highlights
+- Typography: Uses font-semibold (600) and font-bold (700) weights
+- Colors: Mustard (#d9a800) and orange (#F07407) accent palette
+- Responsive:
+- Mobile menu triggers at 850px breakpoint
+- Text scales from text-6xl → text-4xl on mobile
+
+## Future Improvements
+- Add fruit nutrition calculator
+- Implement dark mode toggle
+- Create recipe section

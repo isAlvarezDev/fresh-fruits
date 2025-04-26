@@ -5,7 +5,7 @@ const App = () => {
     <>
       <Header />
       <Main />
-      <img src="/wave-haikei.svg" className="h-full max-w-7xl absolute -z-10 right-0 max-[850px]:hidden" alt="wave" />
+      <img src="/wave-haikei.svg" loading="lazy" className="h-full max-w-7xl absolute -z-10 right-0 max-[850px]:hidden" alt="wave" />
     </>
   );
 };
