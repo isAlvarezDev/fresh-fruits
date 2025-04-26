@@ -1,14 +1,18 @@
 export const Search = () => {
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="19"
-      height="19"
-      fill="#fff"
-      viewBox="0 0 16 16"
-      className="hover:fill-gray-600"
-    >
-      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-    </svg>
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth="2"
+    stroke="white"
+    className="size-6 hover:stroke-gray-600 transition-colors duration-150 max-[850px]:stroke-black"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+    />
+  </svg>
   );
 };
