@@ -1,1 +1,20 @@
+@import './assets/fonts/noto-sans.css';
 @import "tailwindcss";
+
+@theme {
+    --color-orange: #F0870A;
+    --color-mustard: #F0BE37;
+
+    --font-noto-sans: 'Noto Sans', "sans-serif"
+}
+@layer base {
+    body {
+        @apply max-w-7xl font-noto-sans m-auto
+    }
+}
+
+@layer components {
+    #root {
+        @apply min-h-dvh grid grid-rows-[auto_1fr]
+    }
+}
