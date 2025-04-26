@@ -2,7 +2,8 @@
 
 A responsive website showcasing the health benefits of oranges, built with modern web technologies.
 
-![Project Screenshot](./public/project-screenshot.webp)
+![Project Screenshot](./public/screenshot-desktop.webp)
+![Project Screenshot](./public/screenshot-mobile.webp)
 
 ## 📑 Table of Contents
 1. [✨ Features](#features)
@@ -10,6 +11,7 @@ A responsive website showcasing the health benefits of oranges, built with moder
 3. [🛠 Tech Stack](#tech-stack)
 4. [🎨 Design Highlights](#design-highlights)
 5. [🌱 Future Improvements](#future-improvements)
+6. [📊 Time Investment](#time-investment)
 
 ## Features
 - Fully responsive layout (desktop/tablet/mobile)
@@ -33,10 +35,10 @@ A responsive website showcasing the health benefits of oranges, built with moder
     ```
 
 ## Tech Stack
-- ⚛️ React 19	Component-based UI
+- ⚛️ React 19 Component-based UI
 - 🎨 Tailwind CSS 4	Utility-first styling
-- ⚡ Vite	Fast build tool
-- 🖥️ JavaScript	Core functionality
+- ⚡ Vite Fast build tool
+- 🖥️ JavaScript Core functionality
 
 
 ## Design Highlights
@@ -50,3 +52,10 @@ A responsive website showcasing the health benefits of oranges, built with moder
 - Add fruit nutrition calculator
 - Implement dark mode toggle
 - Create recipe section
+
+## Time Investment
+| Phase              | Hours |
+|--------------------|-------|
+| UI Design          | 4     |
+| Resources & Assets | 3     |
+| Responsive Fixes   | 2     |
