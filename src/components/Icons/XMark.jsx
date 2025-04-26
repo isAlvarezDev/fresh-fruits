@@ -6,7 +6,7 @@ export const XMark = () => {
       viewBox="0 0 24 24"
       strokeWidth="1.5"
       stroke="white"
-      className="size-6 hover:stroke-gray-600 transition-colors duration-150 max-[850px]:stroke-black"
+      className="icon-base"
     >
       <path
         strokeLinecap="round"

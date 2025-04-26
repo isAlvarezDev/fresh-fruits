@@ -6,7 +6,7 @@ export const HamburgerMenu = () => {
       viewBox="0 0 24 24"
       strokeWidth="2"
       stroke="white"
-      className="size-7 hover:stroke-gray-600 transition-colors duration-150 max-[850px]:stroke-black"
+      className="icon-base size-7"
     >
       <path
         strokeLinecap="round"

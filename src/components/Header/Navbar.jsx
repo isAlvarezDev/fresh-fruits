@@ -5,35 +5,33 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   
   return (
-    <nav className="flex justify-between mt-4 px-16 text-[14px]">
-      <p className="font-semibold text-lg">EAT <span className="text-[#d9a800] font-bold">FRUITS</span></p>
+    <nav className="navbar">
+      <p className="navbar-brand">EAT <span className="navbar-brand-highlight">FRUITS</span></p>
       
-      {/* Menú para pantallas grandes (>= 850px) */}
-      <ul className="hidden min-[850px]:flex gap-8 items-center">
-        <li><a href="#" className="hover:text-mustard font-semibold">Home</a></li>
-        <li><a href="#" className="hover:text-mustard font-semibold">Healthfacts</a></li>
-        <li><a href="#" className="hover:text-mustard font-semibold">About</a></li>
-        <li><a href="#" className="hover:text-mustard font-semibold">Contact</a></li>
-        <li><a href="#" className="hover:text-mustard font-semibold">Info</a></li>
+      <ul className="navbar-menu">
+        <li><a href="#" className="navbar-link">Home</a></li>
+        <li><a href="#" className="navbar-link">Healthfacts</a></li>
+        <li><a href="#" className="navbar-link">About</a></li>
+        <li><a href="#" className="navbar-link">Contact</a></li>
+        <li><a href="#" className="navbar-link">Info</a></li>
       </ul>
       
-      {/* Menú móvil (aparece cuando isMenuOpen es true) */}
       {isMenuOpen && (
-        <ul className="absolute top-16 left-0 right-0 bg-white py-1 px-16 flex flex-col gap-4 md:hidden">
-          <li><a href="#" className="hover:text-mustard font-semibold">Home</a></li>
-          <li><a href="#" className="hover:text-mustard font-semibold">Healthfacts</a></li>
-          <li><a href="#" className="hover:text-mustard font-semibold">About</a></li>
-          <li><a href="#" className="hover:text-mustard font-semibold">Contact</a></li>
-          <li><a href="#" className="hover:text-mustard font-semibold">Info</a></li>
+        <ul className="navbar-mobile-menu">
+          <li><a href="#" className="font-semibold">Home</a></li>
+          <li><a href="#" className="font-semibold">Healthfacts</a></li>
+          <li><a href="#" className="font-semibold">About</a></li>
+          <li><a href="#" className="font-semibold">Contact</a></li>
+          <li><a href="#" className="font-semibold">Info</a></li>
         </ul>
       )}
       
-      <div className="flex gap-8 items-center">
+      <div className="navbar-icons-container">
         <Search />
         <div 
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="cursor-pointer"
-        >
+          className="navbar-toggle"
+          >
           {isMenuOpen ? <XMark /> : <HamburgerMenu />}
         </div>
       </div>

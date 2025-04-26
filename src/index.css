@@ -17,4 +17,116 @@
     #root {
         @apply min-h-dvh grid grid-rows-[auto_1fr]
     }
+
+    /* Icons */
+
+    .icon-base {
+        @apply size-6 transition-colors duration-150 max-[850px]:stroke-black hover:stroke-gray-600;
+    }
+
+    .icon-search {
+        @apply stroke-white; 
+    }
+
+    /* Navbar */
+
+    .navbar {
+        @apply flex justify-between mt-4 px-16 text-[14px];
+      }
+      
+      .navbar-brand {
+        @apply font-semibold text-lg;
+      }
+      
+      .navbar-brand-highlight {
+        @apply text-[#d9a800] font-bold;
+      }
+      
+      .navbar-menu {
+        @apply hidden min-[850px]:flex gap-8 items-center;
+      }
+      
+      .navbar-link {
+        @apply hover:text-mustard font-semibold;
+      }
+      
+      .navbar-mobile-menu {
+        @apply absolute top-16 left-0 right-0 bg-white py-1 px-16 flex flex-col gap-4 min-[850px]:hidden;
+      }
+      
+      .navbar-icons-container {
+        @apply flex gap-8 items-center;
+      }
+      
+      .navbar-toggle {
+        @apply cursor-pointer;
+      }
+
+      /* Main */
+
+      .main-grid {
+        @apply grid grid-cols-[1fr_1fr] px-16 place-items-center place-content-center justify-items-stretch max-[850px]:flex max-[850px]:flex-col max-[850px]:mt-12;
+      }
+
+      .main-content {
+        @apply flex flex-col;
+      }
+      
+      .main-title {
+        @apply text-6xl font-medium leading-19;
+      }
+
+      .title-highlight {
+        @apply font-bold text-orange bg-linear-to-b from-transparent from-52% via-mustard/50 via-86% to-white to-86%;
+      }
+
+      .main-description {
+        @apply text-lg text-pretty;
+      }
+
+      .main-button {
+        @apply bg-orange font-medium text-white text-[13.5px] px-8 py-2 rounded-full mt-4 cursor-pointer hover:bg-[#F07407] transition-colors duration-150 w-fit max-[850px]:self-center max-[500px]:my-8;
+      }
+
+      .image-container {
+        @apply relative select-none;
+      }
+
+      /* Orange image's letters */
+
+      .letter-base {
+        @apply absolute text-6xl font-bold max-[650px]:text-5xl max-[480px]:text-4xl;
+      }
+      
+      .letter-mustard {
+        @apply text-mustard max-[1024px]:text-black max-[850px]:text-mustard;
+      }
+      
+      .letter-transparent {
+        @apply -z-5;
+      }
+      
+      .letter-o {
+        @apply top-[6%] left-[39%];
+      }
+      
+      .letter-r {
+        @apply top-[2%] right-[29%];
+      }
+      
+      .letter-a {
+        @apply top-[29%] right-0;
+      }
+      
+      .letter-n {
+        @apply top-[60%] right-[14%];
+      }
+      
+      .letter-g {
+        @apply bottom-[6%] right-[50%] max-[1030px]:bottom-[0%] max-[850px]:bottom-[4%];
+      }
+      
+      .letter-e {
+        @apply bottom-[5%] left-[8%] max-[850px]:text-black;
+      }
 }
