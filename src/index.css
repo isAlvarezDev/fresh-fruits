@@ -107,11 +107,11 @@
       }
       
       .letter-o {
-        @apply top-[6%] left-[39%];
+        @apply top-[6%] left-[39%] max-[400px]:top-[2%] max-[400px]:left-[37%];
       }
       
       .letter-r {
-        @apply top-[2%] right-[29%];
+        @apply top-[2%] right-[29%] max-[400px]:top-0 max-[400px]:left-[65%];
       }
       
       .letter-a {
@@ -123,10 +123,10 @@
       }
       
       .letter-g {
-        @apply bottom-[6%] right-[50%] max-[1030px]:bottom-[0%] max-[850px]:bottom-[4%];
+        @apply bottom-[6%] right-[50%] max-[1030px]:bottom-[0%] max-[850px]:bottom-[4%] max-[500px]:bottom-[1%];
       }
       
       .letter-e {
-        @apply bottom-[5%] left-[8%] max-[850px]:text-black;
+        @apply bottom-[5%] left-[8%] max-[850px]:text-black max-[500px]:-z-10 max-[500px]:bottom-[2%];
       }
 }
